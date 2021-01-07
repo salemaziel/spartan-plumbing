@@ -1,0 +1,131 @@
+.actionwraplayout1 {
+    padding: 10rem 0;
+    /*background: rgba(238, 32, 42, 0.9) url('../images/roofbanner.jpg');*/
+    background-image: url('../images/roofbanner.jpg');
+    margin: -2rem 0 4rem 0;
+  }
+  .action-wrap-layout2 {
+    padding: 10rem 0;
+    background: rgba(255, 153, 0, 0.902) url('../images/roofbanner.jpg');
+    margin: 0;
+  }
+
+.ItemTitle {
+    text-shadow: 3px 3px 5px black;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+
+.CTAbutton {
+    width: 250px;
+    text-align: center;
+    height: auto;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #ce1126;
+    background: #ce1126;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-color: #ce1126;
+    box-shadow: 0px 0px 11px 5px rgba(186,186,186,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transform: scale(1);
+
+}
+
+.CTAbutton:hover {
+    color: #ffffff;
+    border-color: #ce1126;
+    background: #ffb200;
+    background-color: #ffb200;
+    transform: scale(1.05);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.CTAbutton:focus {
+  color: #ffffff;
+  border-color: #ce1126;
+  background: #ffb200;
+  background-color: #ffb200;
+  transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.ButtonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  padding: 0;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+  .actionwraplayout1 {
+    margin: 10rem auto 0;
+  }
+    .action-box-layout1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .ItemTitle {
+      text-shadow: 3px 3px 5px black;
+      font-size: 32px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+
+}
+  @media screen and (max-width: 767px) {
+    .ItemTitle {
+      font-size: 34px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .ItemTitle {
+      font-size: 32px;
+    }
+
+    .ButtonBox {
+      padding: 1rem 0;
+      margin: auto;
+      padding: 1rem 0;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .ButtonBox {
+    margin: auto;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .ItemTitle {
+    font-size: 24px;
+  }
+}
